@@ -9,3 +9,8 @@
 - routes 存放路由文件
 - views 存放视图文件或者模板文件
 - bin 可执行文件，可以从此启动服务器
+
+#捕获进程异常
+
+- process.on('uncaughtException', function(){});
+- try{}catch(e){}
